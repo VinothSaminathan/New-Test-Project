@@ -2,11 +2,11 @@
 
 name: CI
 
-on:[push]
+on: [push]
 jobs:
   Build:
   
-Runs-on:ubuntu-latest
+runs-on: ubuntu-latest
 
 steps:
 uses: actions/checkout

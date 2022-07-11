@@ -13,5 +13,6 @@ name: Run a one-line script
 run: echo hello dreamforce 2022!
 name: Run a multi-line script
 run:
-echo add other action to build
+echo add other action to build,
+echo test, and deploy your project.
   

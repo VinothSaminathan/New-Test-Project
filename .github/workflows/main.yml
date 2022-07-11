@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:[push]
+jobs:
+  Build:
+  
+Runs-on:ubuntu-latest
+
+steps:
+uses: actions/checkout
+name:Run a one-line script
+run: echo hello dreamforce 2022
+name:run a multi-line script
+run:echo add other action to build
+  
